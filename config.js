@@ -5,43 +5,43 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Alb Bot",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://dsc.gg/alb-bot",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Fun",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Promoting diverse fun commands to our users.",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
-      name: "99% Uptime",
+      name: "Uptime 99.5%",
       description:
-        "Uptime is a measure of system reliability, expressed as the percentage of time a machine, typically a computer.",
+        "We offer an absurd availability time, whenever you need the bot will be there to help you, 7 days a week.",
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "Simple",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
+        "With simple commands you can have the bot 100% configured, without complications.",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Multifunctional",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "You will probably find what you need just by using Alb.",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  serverCount: 40, //-  - Your
+  memberCount: 100000, //--   - Bot
+  executedCommand: 700, //--  - Stats
+  availableCommand: 80, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
-  mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  //githubLink: "https://github.com/mohitmimani",
+ // twitterLink: "https://twitter.com",
+  //mediumLink: "https://medium.com/",
+ // facebookLink: "https://facebook.com",
+  //discordLink: "https://discord.com",
+ // youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
 };
 
 export default config;
